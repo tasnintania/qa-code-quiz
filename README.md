@@ -27,4 +27,4 @@
 
 ## Manual Testing 
 
-Download the Excel (.xlsx) file and open it with Microsoft Excel.
+Open the Excel (.xlsx) file from /ManualTesting Directory .
