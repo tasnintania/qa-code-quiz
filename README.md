@@ -6,7 +6,7 @@
 2.Separate the Cypress folder from main project "Its a separate project"   
 3.Install dependencies :  `npm install`    
 4. Once installed, open Cypress GUI: `npx cypress open`   
- This will open the Cypress app. You can select E2E Testing and choose your browser.Click on your test spec login.cy.js under e2e/ to run.
+ This will open the Cypress app. You can select E2E Testing and choose your browser.Click on your test spec "login.cy.js "under e2e/ to run.
 
 ## API Testing 
 1.Go to the /mockAPI Directory   
