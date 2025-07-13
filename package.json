@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack-dev-server --open",
+   "start": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server",
     "start:test": "webpack-dev-server --config webpack.test.config.js",
     "test": "yarn test:unit && yarn test:end-to-end",
     "test:end-to-end": "start-server-and-test 'yarn start:test' http://localhost:8081 'cypress run'",

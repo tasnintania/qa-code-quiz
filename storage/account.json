@@ -11,5 +11,13 @@
         "favouriteFruit": "Mango",
         "favouriteMovie": "V for Vendetta",
         "favouriteNumber": "The last prime number"
+    },
+
+     "Tania": {
+        "name": "Tania",
+        "password": "tania123",
+        "favouriteFruit": "Orange",
+        "favouriteMovie": "M for Moana",
+        "favouriteNumber": "8"
     }
 }
