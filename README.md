@@ -1,12 +1,30 @@
-# QA Testing Quiz
+# Login Page Testing 
 
-### Scenario
-The frontend team has developed a prototype login portal for an up and coming platform.
-However, they have not implemented any testing yet and it is up to you to do so.
+## Automation Testing 
 
-As the QA developer, what is tested and how it is tested is up to you.
-Management simply asks that these tests provide as much evidence as possible of the platform's reliability.
+1.Clone the repository, and go to directory   
+2.Install dependencies :  `npm install`  
+3.Install: `npm install cypress`   
+4. Once installed, open Cypress GUI: `npx cypress open`   
+ This will open the Cypress app. You can select E2E Testing and choose your browser.Click on your test spec login.cy.js under e2e/ to run.
 
-### Notes
-- Submission must include a link to a public fork/clone of this repository
-- We typically use Jest for testing node.js/API related logic and Cypress for testing UI functionality, however, you are more than welcome to use any testing framework you desire so long as you are able to provide reasonable justification
+## API Testing 
+
+1.Install Postman  
+2.Move the  file” Test.postman_collection.json “  
+3.Import the Collection into Postman   
+
+* Click "Import"  
+* Select "Upload Files"  
+* Choose Test.postman_collection.json  file    
+* Click "Import"  
+
+4.Run the Collection
+ 
+ * Go to Collections   
+ * Click the Run button beside your imported collection   
+ * Configure run options, then click Run Test  
+
+## Manual Testing 
+
+Download the Excel (.xlsx) file and open it with Microsoft Excel.
